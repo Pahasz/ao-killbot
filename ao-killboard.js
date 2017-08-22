@@ -13,6 +13,8 @@ const Discord = require('discord.js');
 const request = require('request');
 const client = new Discord.Client();
 
+var port = process.env.PORT || 8080;
+
 var lastRecordedKill = -1;
 
 /**
